@@ -28,7 +28,7 @@ module alu(
   input srli_en,
   input srai_en,
   input sw_en,
-  input sh_en,:
+  input sh_en,
   input sb_en,
   input lui_en,
   input auipc_en,

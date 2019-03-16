@@ -198,14 +198,14 @@ case (opcode)
       im_u=instruct[31:12];
       rd=instruct[11:7];
       rd_wr_en=1'b1;
-      LUI_en=1'b1;
+      LUI_en=1'b1;//LUI
     end
   7'b0010111:
     begin
       im_u=instruct[31:12];
       rd=instruct[11:7];
       rd_wr_en=1'b1;
-      AUIPC_en=1'b1;
+      AUIPC_en=1'b1;//AUIPC
     end
 endcase
 
